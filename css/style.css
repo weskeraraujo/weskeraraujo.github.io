@@ -212,6 +212,14 @@ a:hover {
     margin: 0;
   }
 }
+@media (min-width: 992px) {
+  .img-profile {
+    display: block;
+  }
+  .img-qrcode {
+    display: none;
+  }
+}
 .header-classic .contact-info {
   margin-top: 24px;
 }
@@ -947,6 +955,15 @@ to {
     border-radius: 0;
   }
   */
+  .img-profile {
+    display: none;
+  }
+  .img-qrcode {
+    display: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
   .cv-section {
     padding: 44px 0;
   }
